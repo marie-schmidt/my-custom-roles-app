@@ -27,7 +27,7 @@ async function isUserInGroup(groupId, bearerToken) {
     const response = await fetch(url, {
         method: 'GET',
         headers: {
-            'Authorization': `Bearer ${{bearer_token}}`
+            'Authorization': `Bearer ${bearer_token}`
         },
     });
 
