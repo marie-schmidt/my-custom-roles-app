@@ -6,8 +6,6 @@ const roleGroupMappings = {
     'reader': 'bea58852-6f51-4944-a551-806db93fb0d3'
 };
 
-//to create new commit
-
 module.exports = async function (context, req) {
     const user = req.body || {};
     const roles = [];

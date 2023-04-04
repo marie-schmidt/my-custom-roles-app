@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "start": "func start",
-    "test": "echo \"No tests yet...\""
+    "test": "echo \"No tests yet...\"",
+    "build": "npm run build"
   },
   "dependencies": {
     "node-fetch": "^2.6.5"
