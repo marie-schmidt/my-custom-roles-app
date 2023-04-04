@@ -4,7 +4,6 @@
   "scripts": {
     "start": "swa start frontend --api-location api",
     "playwright_test": "playwright test",
-    "install": "npm install",
     "build": "npm run build"
   },
   "devDependencies": {
