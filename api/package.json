@@ -5,11 +5,14 @@
   "scripts": {
     "start": "func start",
     "test": "echo \"No tests yet...\"",
-    "build": "npm run build:prod",
-    "build:azure": "npm run build"
+    "build": "tsc",
+    "prestart": "npm run build"
   },
   "dependencies": {
-    "node-fetch": "^2.6.5"
+    "node-fetch": "^2.6.5",
+    "typescript": "^4.5.5"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.11"
+  }
 }
