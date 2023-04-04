@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "scripts": {
     "start": "swa start frontend --api-location api",
-    "playwright_test": "playwright test"
+    "playwright_test": "playwright test",
+    "build": "npm run build"
   },
-"devDependencies": {
+  "devDependencies": {
     "@playwright/test": "^1.22.2"
+  },
+  "dependencies": {
+    "build": "^0.1.4"
   }
 }

@@ -4,15 +4,10 @@
   "description": "",
   "scripts": {
     "start": "func start",
-    "test": "echo \"No tests yet...\"",
-    "build": "tsc",
-    "prestart": "npm run build"
+    "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "node-fetch": "^2.6.5",
-    "typescript": "^4.5.5"
+    "node-fetch": "^2.6.5"
   },
-  "devDependencies": {
-    "@types/node-fetch": "^2.5.11"
-  }
+  "devDependencies": {}
 }
