@@ -4,7 +4,7 @@
   "scripts": {
     "start": "swa start frontend --api-location api",
     "playwright_test": "playwright test",
-    "build:azure": "npm run build -D -F"
+    "build": "npm run build -D -F"
   },
   "devDependencies": {
     "@playwright/test": "^1.22.2"
